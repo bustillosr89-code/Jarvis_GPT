@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LifeTracker - Instituto Life</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+    <header>
+        <h1>Instituto Life</h1>
+        <p>LifeTracker - Control de Hábitos y Tareas</p>
+    </header>
+
+    <main>
+        <section class="form-section">
+            <form id="task-form">
+                <input type="text" id="task-input" placeholder="Escribe una nueva tarea o hábito..." required>
+                <button type="submit" class="btn-add">Agregar</button>
+            </form>
+        </section>
+
+        <section class="filter-section">
+            <button class="filter-btn active" id="filter-all">Todas</button>
+            <button class="filter-btn" id="filter-pending">Pendientes</button>
+            <button class="filter-btn" id="filter-completed">Completadas</button>
+        </section>
+
+        <section class="list-section">
+            <ul id="task-list"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Practica_en_clases | Desarrollo Web Frontend</p>
+    </footer>
+
+    <script src="js/java.js"></script>
+  </body>
+</html>
